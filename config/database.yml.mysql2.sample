@@ -1,0 +1,26 @@
+common: &common
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  host: localhost
+  username: root
+  password:
+  # socket: /var/run/mysqld/mysqld.sock
+
+development:
+  <<: *common
+  database: company_companion_development
+
+test:
+  <<: *common
+  database: company_companion_test
+
+production:
+  <<: *common
+  database: company_companion_production
+
+staging:
+  <<: *common
+  database: company_companion_staging
+
