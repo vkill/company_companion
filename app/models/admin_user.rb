@@ -1,0 +1,3 @@
+class AdminUser < Identity
+
+end

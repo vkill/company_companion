@@ -21,6 +21,7 @@ config/database.yml
 # gem coffee-rails-source-maps
 public/source_maps/
 
+public/uploads
 
 .DS_Store
 .DS_Store?

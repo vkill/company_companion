@@ -57,6 +57,8 @@ group :development do
   gem 'thin', require: false
   gem 'quiet_assets'
   gem 'coffee-rails-source-maps'
+
+  gem 'randumb'
 end
 
 group :test do
