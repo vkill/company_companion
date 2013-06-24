@@ -1,0 +1,2 @@
+module Client::CompanyDomainsHelper
+end

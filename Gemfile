@@ -18,9 +18,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'handlebars_assets'
-gem 'rivets-rails'
+gem 'rivets-rails', github: 'vkill/rivets-rails'
 gem "i18n-js", "~> 3.0.0.rc5"
-gem "js-routes", "~> 0.9.0"
 gem "json2-rails"
 
 

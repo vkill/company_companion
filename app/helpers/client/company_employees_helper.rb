@@ -1,0 +1,2 @@
+module Client::CompanyEmployeesHelper
+end
