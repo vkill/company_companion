@@ -57,5 +57,7 @@ module CompanyCompanion
       g.integration_tool :rspec
     end
 
+    # gem bootstrap-sass
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end

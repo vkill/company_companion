@@ -31,4 +31,5 @@ CompanyCompanion::Application.configure do
 
   config.assets.prefix = '/assets_dev'
   config.assets.compress = true
+  
 end
