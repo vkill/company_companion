@@ -6,6 +6,8 @@
 
  *= require plugins/jquery-editable_1.4.4/jquery-editable
 
+ *= require client/layout
+
  *= require_self
 
  */

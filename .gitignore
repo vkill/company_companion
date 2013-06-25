@@ -19,7 +19,9 @@
 config/database.yml
 
 # gem coffee-rails-source-maps
-public/source_maps/
+public/source_maps
+public/assets_dev/source_maps
+public/assets/source_maps
 
 public/uploads
 

@@ -11,4 +11,8 @@ after "master_data", "development:common_master" do
     FactoryGirl.create :user, company: company
   end
 
+
+  company = FactoryGirl.create :company
+  FactoryGirl.create :user, company: company, email: 'heyp@playab.net'
+
 end

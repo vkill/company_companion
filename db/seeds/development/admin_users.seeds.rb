@@ -9,4 +9,6 @@ after "master_data" do
     FactoryGirl.create :admin_user
   end
 
+  FactoryGirl.create :admin_user, email: "122755990@qq.com"
+  
 end

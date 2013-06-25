@@ -3,6 +3,8 @@ class Client::BaseController < ApplicationController
 
   layout 'client'
 
+  before_filter :authenticate_client_user!
+  
   before_filter :set_resource, only: [:update_column]
 
   def update_column
