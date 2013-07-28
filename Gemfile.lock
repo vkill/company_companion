@@ -48,6 +48,9 @@ GEM
       activesupport (= 4.0.0.rc2)
       arel (~> 4.0.0)
     activerecord-deprecated_finders (1.0.3)
+    activerecord-serialize_coders (0.0.1)
+      activerecord (> 3.1)
+      activesupport
     activesupport (4.0.0.rc2)
       i18n (~> 0.6, >= 0.6.4)
       minitest (~> 4.2)
@@ -239,6 +242,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_hash
+  activerecord-serialize_coders
   activevalidators
   ancestry
   attribute_enums

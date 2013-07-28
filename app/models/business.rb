@@ -2,7 +2,7 @@ class Business < ActiveRecord::Base
 
   has_and_belongs_to_many :companies, join_table: 'businesses_companies'
 
-  serialize :module_ids, ::IdsArraySerialization.new
+  serialize :module_ids, ::ActiveRecord::Coders::StringIdsColumn.new
 
   def modules
     ::BusinessModule.find(module_ids)

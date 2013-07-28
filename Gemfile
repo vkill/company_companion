@@ -45,6 +45,8 @@ gem 'default_value_for'
 gem "attribute_enums", require: "attribute_enums/active_record"
 gem 'activevalidators'
 
+gem 'activerecord-serialize_coders'
+
 gem 'rack-cors', require: 'rack/cors'
 
 group :doc do
